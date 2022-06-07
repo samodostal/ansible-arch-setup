@@ -1,0 +1,6 @@
+---
+- name: Ansible Arch Setup
+  hosts: localhost
+  tasks:
+    - name: Print Hello, World!
+      shell: echo "Hello, World!"
